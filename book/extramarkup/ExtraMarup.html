@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>extra markup</title>
+    <title>Information About Your Pages</title>
+    <meta name="description"
+          content="An Essay on Installation Art"/>
+    <meta name="keywords"
+          content="installation, art, opinion"/>
+    <meta name="robots"
+          content="nofollow"/>
+    <meta http-equiv="author"
+          content="Jon Duckett"/>
+    <meta http-equiv="pragma"
+          content="no-cache"/>
+    <!--expires
+    Because browsers often cache the content of a page, the expires option can be used
+    to indicate when the page
+    should expire (and no longer be cached). Note that the date must be specified in the format shown.-->
+    <meta http-equiv="expires"
+          content="Fri, 04 Apr 2014 23:59:59 GMT"/>
+</head>
+<body><!--
+    1.html5声明
+ <!DOCTYPE html>
+
+    html4声明
+     <!DOCTYPE html PUBLIC
+     "-//W3C//DTD HTML 4.01 Transitional//EN"
+     "http://www.w3.org/TR/html4/loose.dtd">
+    xml声明
+    <?xml version="1.0" ?>
+-->
+<!--2.id和class 属性,指定两个class类-->
+<p id="p1" class="c1 c2"></p>
+
+<!--3 block elements ,h1 p ul li都是block类型元素，新起一行-->
+<h1>Hiroshi Sugimoto</h1>
+<p>The dates for the ORIGIN OF ART exhibition are as
+    follows:</p>
+<ul>
+    <li>Science: 21 Nov - 20 Feb 2010/11</li>
+    <li>Architecture: 6 Mar - 15 May 2011</li>
+    <li>History: 29 May - 21 Aug 2011</li>
+    <li>Religion: 28 Aug - 6 Nov 2011</li>
+</ul>
+<!--4 inline elements内联元素，在同一行中 img a b em-->
+Timed to a single revolution of the planet around the sun at a 23.4 degrees tilt that plays out the rhythm of the
+seasons, this <em>Origins of Art</em> cycle is organized around four themes: <b>science, architecture, history</b> and
+<b>religion</b>.
+<!--group text & elements in a block ：div 元素-->
+<div id="header">
+    <img src="5images/.logo.gif" alt="Anish Kapoor"/>
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="biography.html">Biography</a></li>
+        <li><a href="works.html">Works</a></li>
+        <li><a href="contact.html">Contact</a></li>
+    </ul>
+</div><!-- end of header -->
+<!--6.group text & elements in a line ：span 元素:1.可以只包含一个元素，2页可以包含一组inline元素-->
+<p>Anish Kapoor won the Turner Prize in 1991 and exhibited at the <span class="gallery">Tate Modern</span> gallery in
+    London in 2003.</p>
+<!--7 iframe:可以嵌入其他页面-->
+<iframe
+        width="450"
+        height="350"
+        src="http://maps.google.co.uk/maps?q=moma+new+york
+  &amp;output=embed">
+</iframe>
+<!--scrolling no不滑动，yes有滚动条 auto自动出现滚动条-->
+<iframe
+        src="http://maps.google.co.uk/maps?q=moma+new+york
+  &amp;output=embed"
+        width="450"
+        height="350"
+        frameborder="0"
+        scrolling="no">
+</iframe>
+<!--8.information about your page-->
+<!--meta元素：在header中
+It is not visible to users but fulfills a number of purposes such as telling search engines about your page, who created
+it, and whether or not it is time sensitive. (If the page is time sensitive, it can be set to expire.)
+meta元素的几个属性：
+description
+This contains a description
+of the page. This description
+is commonly used by search engines to understand what the page is about and should be a maximum of 155 characters.
+Sometimes it is also displayed in search engine results.
+keywords
+This contains a list of comma- separated words that a user might search on to find the page. In practice, this no longer
+has any noticeable effect on how search engines index your site.
+robots
+This indicates whether search engines should add this page
+to their search results or not. A value of noindex can be used if this page should not be added. A value of nofollow can
+be used if search engines should add this page in their results but not any pages that it links to.-->
+</body>
+</html>

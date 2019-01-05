@@ -1,0 +1,7 @@
+DOCTYPES tell browsers which version of HTML you are using.
+X You can add comments to your code between the <!-- and --> markers.
+X The id and class attributes allow you to identify particular elements.
+X The <div> and <span> elements allow you to group block-level and inline elements together.
+X <iframes> cut windows into your web pages through which other pages can be displayed.
+X The <meta> tag allows you to supply all kinds of information about your web page.
+X Escape characters are used to include special characters in your pages such as <, >, and ©.
