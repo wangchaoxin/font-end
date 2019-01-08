@@ -1,0 +1,12 @@
+div{
+    /*相对偏移*/
+    position: relative;
+    /*绝对布局，在页面上不占用位置*/
+    position: absolute;
+    /*fixed 相对页面不动*/
+    position: fixed;
+    /*向左偏移10Px*/
+    left: 10px;
+    /*设置覆盖顺序,重叠的时候谁在前面，值越大越再前面*/
+    z-index: 1;
+}

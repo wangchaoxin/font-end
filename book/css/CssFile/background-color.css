@@ -1,0 +1,17 @@
+body {
+    /*background-color: rgb(200,200,200);*/
+    /*设置背景图片*/
+    background-image: url("../../../static/images/p1.jpeg");
+    /*设置图片重复方式*/
+    background-repeat: no-repeat;
+    /*设置背景大小*/
+    background-size: 100px 100px;
+}
+
+h1 {
+    background-color: DarkCyan;}
+h2 {
+    background-color: #ee3e80;}
+p{
+    background-color: white;
+}

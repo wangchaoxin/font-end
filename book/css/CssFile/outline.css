@@ -1,0 +1,7 @@
+/*设置轮廓样式*/
+p {
+    /*设置轮廓线*/
+    outline-style: dashed;
+    outline-color: #9effe5;
+    outline-width: thick;
+}

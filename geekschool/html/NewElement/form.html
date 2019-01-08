@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>form</title>
+</head>
+<body>
+<!--html5表单元素可以写再页面上的任何地方，为该元素指定一个form属性，属性值为表单的id-->
+<form id="test" enctype="application/x-www-form-urlencoded">
+    <input type="text">
+    <!--formaction 可以为不同的按钮指定提交到不同的url
+        formmethod 指定为每个不同的按钮设置不同的提交方法
+        enctype  表单的enctype属性为每个元素指定编码方式 formenctype可以为不同的元素分别指定提交方式
+        formtarget 分别指定每个表单提交后打开的页面
+        autofocus 当页面打开时，自动获取输入焦点
+        required 提交时不能为空
+        placeholder 输入提示
+        autocomplete 下拉列表自动完成
+        pattern 指定正则表达式进行校验
+    -->
+    <!--enntype种类
+    application/x-www-form-urlencoded	Default. All characters are encoded before sent (spaces are converted to "+" symbols, and special characters are converted to ASCII HEX values)
+    multipart/form-data	No characters are encoded. This value is required when you are using forms that have a file upload control
+    text/plain	Spaces are converted to "+" symbols, but no special characters are encoded
+    -->
+    <label for="input1">哈哈</label>
+    <input id="input1" type="submit" formaction="localhost:8080/" name="submit" value="提交" formmethod="get"
+           formenctype="application/x-www-form-urlencoded" formtarget="_blank" autofocus required onclick="function f() {
+                var input1= document.getElementById('input1');
+                //labels 属性获取input元素的所有label
+                var label= input1.labels[1];
+                //control属性 获取控制label的textbox
+                var textbox = label.control;
+           }">
+    <input type="submit" formaction="localhost:8080/" name="submit" value="提交2" placeholder="placeholder"
+           autocomplete="on" pattern="[A-Z]">
+    <!--image提交按钮-->
+    <input type="image" width="50" height="50" src="../../../static/images/p1.jpeg">
+</form>
+<!--form元素可以不放在form中，需要指定form 的id-->
+<textarea form="test"></textarea>
+</body>
+</html>

@@ -1,0 +1,16 @@
+p {
+    color: #9effe5;
+    /*设置对齐方式*/
+    text-align: center;
+    /*首行缩进2个字符*/
+    text-indent: 2em;
+    /*字符转换，大小写  capitalize首字母大写*/
+    text-transform: capitalize;
+    /*text-transform: lowercase;*/
+    /*text-transform: uppercase;*/
+    /*设置阴影效果*/
+    text-shadow: 5px 5px 5px #9effe5;
+    /*设置自动换行，需要指定width*/
+    text-wrap: normal;
+    width: 100px;
+}

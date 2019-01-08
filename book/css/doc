@@ -10,13 +10,14 @@ css可以控制的样式，每一个元素有一个框
         Italics, bold, uppercase, lowercase, small-caps
 css 选择器
    *  全局选择器，应用于所有元素
-   h1, h2, h3 {}  类型选择器
+   h1, h2, h3 {}  类型选择器,可以选择多个
    .note {}  类选择器  p.note {} 应用于p 中有class=note属性的元素
    #introduction {}  id选择器
    li>a {}  孩子选择器，应用于li 中的a元素，a是li的直接孩子
-   p a {}   deScendant SeLector  应用于在li中的a，可以不是直接孩子
+   p a {}   派生选择器（派生选择器可以和id，类选择器结合使用）,中间隔一个空格 deScendant SeLector  应用于在li中的a，可以不是直接孩子
    h1+p {}   adjacent SIBLIng SeLector   Targets the first <p> element after any <h1> element (but not other <p> elements)，必须是直接相邻的下一个
    h1~p {}   generaL SIBLIng SeLector  不需要是直接相邻是元素
+   [title]{}  属性选择器， <p title="test">，选择具有title属性的元素  [title="te"] 选择属性=te的元素
 级联规则cascade：如果设置了两次一个元素的属性，哪个生效，可以设置全局规则，再根据具体元素覆盖全局规则
     LaSt ruLe
         If the two selectors are identical, the latter of the two will take precedence. Here you can see the second i selector takes precedence over the first.
@@ -27,6 +28,10 @@ css 选择器
 继承：
     如果body指定了font-family,所有子元素也继承此属性,但是backgroud-color不继承父类的，
     通过 padding: inherit; 声明继承父类的属性
+css定位：
+    普通流：元素按照其再html中的位置顺序决定布局
+    浮动
+    绝对布局
 
 
 

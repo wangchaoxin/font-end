@@ -1,0 +1,6 @@
+ul li{
+    /*更改列表标识符*/
+    list-style-type: circle;
+    /*指定列表标志图片*/
+    /*list-style-image: url("../");*/
+}

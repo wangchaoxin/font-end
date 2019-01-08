@@ -1,0 +1,25 @@
+a {
+}
+
+/*普通的，未被访问的连接*/
+a:link {
+
+}
+
+/*用户已访问的连接*/
+a:visited {
+
+}
+
+/*鼠标位于连接上方*/
+a:hover {
+    /*去掉连接的下划线*/
+    text-decoration: none;
+    /*也可以设置背景颜色*/
+    background-color: #9effe5;
+}
+
+/*连接被点击的时刻*/
+a:active {
+
+}

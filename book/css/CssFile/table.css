@@ -1,0 +1,11 @@
+table, tr, th, td {
+    /*外边框*/
+    border: 1px #9effe5;
+    /*设置折叠边框,如果有两个边框，则进行合并*/
+    border-collapse: collapse;
+    width: 400px;
+    height: 400px;
+    /*设置内容居中*/
+    text-align: center;
+    background-color: #8affc9;
+}
