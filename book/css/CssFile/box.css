@@ -1,0 +1,41 @@
+/*盒子模型*/
+p {
+    /*设置内边距*/
+    padding: 0px;
+    /*分别设置上下左右*/
+    padding-left: 10px;
+
+    /*height和width设置的是content的属性*/
+    height: 10px;
+    width: 10px;
+
+    /*设置外边距*/
+    margin: 100px;
+    /*外边距合并:margin-top和margin-bottom会叠加，遵循多的一方*/
+
+    /*css的操作*/
+    /*1.margin水平对齐*/
+    /*居中对齐*/
+    margin-left: auto;
+    margin-right: auto;
+
+    /*2.position水平对齐*/
+    /*向右对齐*/
+    position: absolute;
+    right: 0px;
+
+    /*3.float 水平对齐*/
+    float: right;
+
+    /*2 尺寸操作*/
+    /*增大行间距*/
+    line-height: 200%;
+    /*设置鼠标样式*/
+    cursor: auto;
+    /*设置元素如何显示*/
+    display: none;
+    /*设置显示成一行,通常用在ul元素中进行导航*/
+    display: inline;
+    /*设置元素可见不可见*/
+    visibility: hidden;
+}

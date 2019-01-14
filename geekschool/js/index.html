@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>js</title>
+    <!--js可以放在header中和body中-->
+    <script>
+        // document.write("hello");
+    </script>
+    <!--引入外部js-->
+    <!--<script src="index.js"></script>-->
+</head>
+<!--onload网页加载完毕事件-->
+<body onload="alert('网页加载完毕')">
+    <p id="p1">哈哈</p>
+    <button onclick="alert1()">click</button>
+    <!--需要放在下面才能操作p元素-->
+
+    <!--button各种事件-->
+    <!--onmouseover鼠标移入事件，onmouseout鼠标移出事件-->
+    <button onclick="alert1()" onmouseover="alert1()" onmouseout="alert1()">button事件</button>
+    <button onclick="changeHtml(this)">button事件</button>
+    <form>
+        <!--onchange文本内容改变事件,onselect文本框被选中事件-->
+        <input type="text" onchange="alert('内容改变')" onselect="alert('文本框被选中')" onfocus="alert('光标被选中')">
+    </form>
+    <script src="index.js"></script>
+</body>
+</html>

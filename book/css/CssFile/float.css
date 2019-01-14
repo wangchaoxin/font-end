@@ -1,0 +1,6 @@
+p{
+    /*进行浮动*/
+    float: left;
+    /*去掉浮动 left right both */
+    clear: both;
+}

@@ -1,0 +1,16 @@
+p {
+    /*设置边框样式*/
+    border-style: dot-dash;
+    /*边框大小*/
+    border-width: 10px;
+    /*分别设置四边的效果*/
+    border-bottom-style: none;
+    /*颜色*/
+    border-color: #9effe5;
+    /*设置边框圆角*/
+    border-radius: 10px;
+    /*一起设置边框属性*/
+    border: 2px solid blue;
+    /*设置阴影效果*/
+    /*box-shadow: ;*/
+}
